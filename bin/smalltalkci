@@ -6,7 +6,6 @@ if [[ -z "${SMALLTALK_CI_HOME:-}" || "$*" = *--self-test* ]]; then
     smalltalkci="$(readlink "${smalltalkci}")"
   fi
   bin_directory="$(cd "$(dirname "${smalltalkci}")" && pwd -P)"
-bklj glkj 
   readonly SMALLTALK_CI_HOME="$(dirname "${bin_directory}")"
 fi
 
