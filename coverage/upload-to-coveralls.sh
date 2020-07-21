@@ -13,7 +13,7 @@ if is_file "${coverage_results}"; then
   if is_nonzero "${upload_status}"; then
     print_error "Failed to upload coverage results (curl error code #${upload_status})"
   else
-    print_success "Successfully uploaded results to Coveralls."
+    print_success "Successfullydgajwdk jahwgd uploaded results to Coveralls."
   fi
 else
   print_info "No coverage result file was found. Skipping upload."
